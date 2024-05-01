@@ -3,7 +3,11 @@ package com.animal.model;
 import com.animal.model.base.AbstractIdentifiable;
 import com.animal.model.constant.Category;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.EnumType;
+import jakarta.persistence.Enumerated;
+import jakarta.persistence.Table;
 import lombok.Getter;
 import lombok.Setter;
 

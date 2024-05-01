@@ -14,7 +14,7 @@ import java.io.InputStream;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static com.animal.model.constant.FileType.*;
+import static com.animal.model.constant.FileType.XML;
 
 @Service
 @RequiredArgsConstructor
